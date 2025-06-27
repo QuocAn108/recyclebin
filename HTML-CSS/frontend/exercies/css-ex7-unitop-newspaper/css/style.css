@@ -1,0 +1,35 @@
+#wrapper{
+    margin: 0 auto;
+    width: 960px;
+    position: relative;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a:hover{
+    text-decoration: none;
+}
+.box{
+    position: absolute;
+    background-color: blanchedalmond;
+}
+.box1,.box2{
+    min-height: 600px;
+    float: left;
+}
+.box1{
+    width: 600px;
+    background-color: aqua;
+}
+.box2{
+    width: 360px;
+    background-color: brown;
+}
+.footer{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: red;
+    width: 100%;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let my_array1 = [5, 2, 7, 4, 1, 10];
+        let my_array = [5, 2, 7, 4, 1, 10];
+        let t = 0;
+        for (let x of my_array1) {
+            t += x;
+        }
+        document.write(t+"<br>");
+        let t1 = 0;
+        my_array.forEach(function (currenttValue,index) {
+            t1 += currenttValue;
+            document.write(index+" : "+currenttValue+"<br>");
+        });
+        document.write(t1);
+        let my_array2 = [5, 2, 7, 4, 1, 10];
+        my_array2.forEach(function (currenttValue,index,arr) {
+            arr[index]=currenttValue*10;
+        });
+        console.log(my_array2);
+        document.write(t1);
+        //cach nay la tach ham ,it khi dung
+        // let my_array2 = [5, 2, 7, 4, 1, 10];
+        // my_array2.forEach(my_function);
+        // function my_function(currenttValue,index,arr) {
+        //     arr[index]=currenttValue*10;
+        // }
+        // console.log(my_array2);
+    </script>
+</body>
+
+</html>

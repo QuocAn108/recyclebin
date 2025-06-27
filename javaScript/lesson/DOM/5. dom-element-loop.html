@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>GetElementByTagName</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nemo tempore, magni commodi maiores tempora
+        necessitatibus blanditiis tenetur id fugit.</p>
+        <h2>
+            Heading 2.1
+        </h2>
+    <p>Animi vero eveniet voluptatibus eum odio laudantium aliquam repellat iste molestiae, sequi perferendis excepturi,
+        quae nesciunt. Esse corrupti voluptates corporis.</p>
+        <h2>
+            Heading 2.2
+        </h2>
+    <p>Perferendis impedit repellat, cupiditate vitae, repudiandae mollitia natus quaerat in pariatur provident voluptas
+        nobis eos, a maxime voluptatem rerum animi.</p>
+        <h2>
+            Heading 2.3
+        </h2>
+    <p>Sapiente facilis quam atque hic suscipit, voluptates est, accusamus nostrum, nulla pariatur doloremque! Illo ab
+        labore nobis accusamus fugit totam?</p>
+        <script>
+            const h2Nodes = document.getElementsByTagName('h2');
+            console.log(h2Nodes[0]);
+            for (let i = 0; i < h2Nodes.length; i++) {
+                h2Nodes[i].style.color="red";
+            }
+            for (const element of h2Nodes) {
+                element.style.color="blue";
+            }
+        </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-display-block</title>
+</head>
+<body>
+    <style>
+        #wrapper{
+            width: 960px;
+            margin: 0 auto;
+        }
+        .list a{
+            display: block;
+            border-right: 1px solid red;
+            background: greenyellow;
+            text-decoration: none;
+            padding: 6px 20px;
+            float: left;
+        }
+        .list a:hover{
+            background: blue;
+        }
+    </style>
+    <div id="wrapper">
+        <h1>Display block</h1>
+        <div class="list">
+            <a href="">List 1</a>
+            <a href="">List 2</a>
+            <a href="">List 3</a>
+            <a href="">List 4</a>
+        </div>
+    </div>
+</body>
+</html>

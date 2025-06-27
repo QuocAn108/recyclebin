@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Get và set trong js</h1>
+    <script>
+        let person = {
+            firstName: 'Hoàng Quốc',
+            lastName: 'An',
+            age: 32,
+            gender: 'male',
+            get fullName() {
+                return this.firstName + ' ' + this.lastName;
+            },
+            set fullName(info){
+                info = info.split(' ');
+                this.firstName=info[0];
+                this.lastName=info[info.length-1];
+                console.log(info);
+            }
+        };
+        person.fullName = 'Hoàng Quang Thịnh';
+        document.write(person.fullName);
+
+
+    </script>
+</body>
+
+</html>

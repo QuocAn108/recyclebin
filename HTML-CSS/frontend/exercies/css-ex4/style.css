@@ -1,0 +1,35 @@
+#wrapper{
+    margin: 0 auto;
+    width: 960px;
+}
+.center-blue{
+    text-align: center;
+    color: white;
+    background-color: blue;
+}
+#header{
+    padding: 15px;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+
+}
+#content{
+    padding: 15px;
+    min-height: 600px;
+    flex: 70%;
+    background-color: #f3f3f3;
+    font-weight: bold;
+}
+#sidebar{
+    min-height: 600px;
+    padding: 15px;
+    flex: 30%;
+    background-color: #e5e5e5;
+    font-weight: bold;
+}
+#footer{
+    padding: 10px 0;
+    font-weight: bold;
+}

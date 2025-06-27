@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Phương thức trong object</h1>
+    <script>
+        let number = {
+            a: 12,
+            b: 25,
+            sum: function () {
+                // document.write('Phương thức tính tổng');
+                return this.a + this.b;
+            }
+        };
+
+        number.minus = function () {
+            return this.a - this.b;
+        }
+
+        document.write(number.sum());
+        document.write(number.minus());
+
+
+
+    </script>
+</body>
+
+</html>

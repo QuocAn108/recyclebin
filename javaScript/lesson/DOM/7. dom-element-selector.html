@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>GetElementBySelector</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nemo tempore, magni commodi maiores tempora
+        necessitatibus blanditiis tenetur id fugit.</p>
+    <h2>
+        Heading 2.1
+    </h2>
+    <p>Animi vero eveniet voluptatibus eum odio laudantium aliquam repellat iste molestiae, sequi perferendis excepturi,
+        quae nesciunt. Esse corrupti voluptates corporis.</p>
+    <ul>
+        <a href="">
+            <li class="hightlight">html-css</li>
+        </a>
+        <a href="">
+            <li>Javascript</li>
+        </a>
+        <a href="">
+            <li class="hightlight">PHP</li>
+        </a>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate recusandae iure maxime, architecto vitae
+        impedit assumenda hic distinctio mollitia veniam?</p>
+    <h2>
+        Heading 2.2
+    </h2>
+    <p>Perferendis impedit repellat, cupiditate vitae, repudiandae mollitia natus quaerat in pariatur provident voluptas
+        nobis eos, a maxime voluptatem rerum animi.</p>
+    <h2 class="hightlight">
+        Heading 2.3
+    </h2>
+    <p>Sapiente facilis quam atque hic suscipit, voluptates est, accusamus nostrum, nulla pariatur doloremque! Illo ab
+        labore nobis accusamus fugit totam?</p>
+    <script>
+        //QuerySelector: truy cap vao 1 phan tu 
+        document.querySelector('p').style.color="red";
+        //QuerySelecttorAll
+        const pElement = document.querySelectorAll('p');
+        console.log(pElement);
+        for (const element of pElement) {
+            element.style.color="red";
+        } 
+        document.querySelector('ul a li').style.background="yellow";
+        const liElement = document.querySelectorAll('li.hightlight');
+        console.log(liElement);
+        for (const element of liElement) {
+            element.style.color="blue";
+        } 
+    </script>
+</body>
+
+</html>

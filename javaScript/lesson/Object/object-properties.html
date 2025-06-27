@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>làm việc với object trong js</h1>
+    <script>
+        let person = {
+            firstName: 'Hoàng Quốc',
+            lastName: 'An',
+            age: 32,
+            gender: 'male'
+        };
+
+        // 1.truy xuất vào thuộc tính object
+        console.log(person['firstName'])
+        // 2.truy xuất vào thuộc tính qua vòng lặp
+        for (x in person) {
+            console.log(x + ':' + person[x]);
+        }
+        // 3. cập nhật giá trị thuộc tính qua vòng lặp
+        person.age = 20;
+        console.log(person);
+        // 4. tạo thuộc tính mới cho object
+        person.weight = 60;
+        //person['weight']=60; như cách trên
+        console.log(person);
+        // 5.delete thuộc tính trong object
+        delete (person.age);
+        console.log(person);
+    </script>
+</body>
+
+</html>

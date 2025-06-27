@@ -1,0 +1,38 @@
+#wrapper {
+    width: 960px;
+    margin: 0px auto;
+}
+
+.center-green {
+    text-align: center;
+    background: green;
+    color: white;
+    font-weight: bold;
+}
+#content {
+    width: 600px;
+    float: left;
+    padding: 15px;
+    min-height: 600px;
+    background: #f3f3f3;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+#sidebar {
+    width: 360px;
+    padding: 15px;
+    float: left;
+    min-height: 600px;
+    background:#e1e1e1;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+#header{
+    padding: 15px;
+    clear: both;
+}
+#footer{
+    padding: 10px 0;
+    clear: both;
+}

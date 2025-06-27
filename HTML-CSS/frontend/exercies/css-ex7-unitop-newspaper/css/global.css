@@ -1,0 +1,20 @@
+.text-center{
+    text-align: center;
+}
+.text-red{
+    color: red;
+}
+.clear-fix:after{
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+}
+.clear-fix{
+    display: block;
+    clear: both;
+}
+.fw-bold{
+    font-weight: bold;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clear fix</title>
+</head>
+
+<body>
+    <style>
+        .box {
+            margin: 0 auto;
+            width: 960px;
+            background-color: aqua;
+        }
+
+        .box1,
+        .box2 {
+            min-height: 600px;
+            float: left;
+        }
+        .box1{
+            width: 600px;
+            background-color: blueviolet;
+        }
+        .box2{
+            width: 360px;
+            background-color: brown;
+        }
+        .clear-fix:after{
+            content: ".";
+            display: block;
+            clear: both;
+            visibility: hidden;
+            line-height: 0;
+            height: 0;
+        }
+        .clear-fix{
+            display: block;
+            clear: both;
+        }
+    </style>
+    <h1>Clear fix</h1>
+    <div class="box clear-fix">
+        <div class="box1">
+            box1
+        </div>
+        <div class="box2">
+            box2
+        </div>
+    </div>
+</body>
+
+</html>

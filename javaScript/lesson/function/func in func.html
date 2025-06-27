@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function checkEven(k){
+            if(k%2==0) return true;
+            return false;
+        }
+        function sum(n){
+            let tong=0;
+            for(let i=0;i<=n;i++){
+                if(checkEven(i)){
+                tong+=i;
+                }
+            }
+            return tong;
+        }
+        document.write(sum(5));
+    </script>
+</body>
+</html>

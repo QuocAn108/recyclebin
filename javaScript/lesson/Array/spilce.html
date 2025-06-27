@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let my_array = [1, 2, 3, 4, 5, 6];
+        my_array.splice(1);
+        console.log(my_array);//=1
+        let my_array1 = [1, 2, 3, 4, 5, 6];
+        my_array1.splice(3);//=1,2,3 xoa tu index 3
+        console.log(my_array1);
+        let my_array2 = [1, 2, 3, 4, 5, 6];
+        my_array2.splice(2,2);//=1,2,5,6 xoa 2 ptu tu index 2
+        console.log(my_array2);
+        let my_array3 = [1, 2, 3, 4, 5, 6];
+        my_array3.splice(2,4,7); //=1,2,7 xoa tu index 2 4 ptu va chen 7 vao index 2
+        console.log(my_array3);
+
+    </script>
+</body>
+</html>

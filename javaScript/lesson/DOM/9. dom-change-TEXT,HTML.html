@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Js HTML DOM - Change Html, text</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat cum quos magnam exercitationem dolores itaque
+        soluta tenetur! Voluptas voluptate laudantium impedit vitae, optio sit facilis odit nesciunt dolores suscipit
+        accusamus saepe repudiandae libero aliquam, veritatis assumenda dignissimos animi quos nam!</p>
+    <h2 id="demo">First Content!</h2>
+    <p>Ullam inventore dolore rem laborum sint temporibus, explicabo soluta provident in culpa vero praesentium alias
+        commodi nobis fugit adipisci magni illo ipsum voluptate quae. Quam placeat libero veritatis animi minus pariatur
+        iusto repellat accusamus necessitatibus ad. Fuga maxime saepe laboriosam?</p>
+    <div id="result">
+        TOTAL:
+    </div>
+    <script>
+        /*         const demo = document.getElementById('demo');
+                console.log(demo.innerHTML); */
+        let total = 1988;
+        const result = document.getElementById('result');
+        result.innerHTML = "<b>TOTAL</b>:" + total + " $";
+        console.log(result);
+    </script>
+</body>
+
+</html>

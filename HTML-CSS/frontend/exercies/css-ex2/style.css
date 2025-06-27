@@ -1,0 +1,21 @@
+body{
+    width: 960px;
+    margin: 0 auto;
+    font-size: x-large;
+}
+.font-weight-bold{
+    font-weight: bold;
+}
+.text-lineThrough{
+    text-decoration: line-through;
+}
+.text-align-end{
+    text-align: end;
+}
+.text-orange{
+    color: orange;
+}
+h1{
+    text-transform: capitalize;
+    text-align: center;
+}

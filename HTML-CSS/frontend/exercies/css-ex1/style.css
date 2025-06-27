@@ -1,0 +1,37 @@
+body{
+    margin: 0 auto;
+    width: 70%;
+}
+h1{
+    font-size: 80px;
+    font-weight: bold;
+    background: #a3c3bf;
+}
+h1:hover{
+    background: #c2bba4;
+    cursor: pointer;
+}
+.orange-text{
+    color: #eb9411;  
+    font-size: 40px;
+}
+h2{
+    font-size: 40px;
+    color:#99df37
+}
+input:checked+label{
+    color: red;
+}
+a{
+    color: #964b4b;
+}
+a:hover{
+    color: #366e40;
+    cursor: pointer;
+}
+p{
+    font-size: 30px;
+}
+form{
+    font-size: 30px;
+}

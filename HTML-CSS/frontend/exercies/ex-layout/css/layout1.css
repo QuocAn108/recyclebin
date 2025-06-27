@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    line-height: 1.15;
+}
+#wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+#header{
+    background-color: #ee5253;
+    padding: 15px 0;
+    text-align: center;
+    color: #f5f5f5;
+    text-transform: uppercase;
+}
+#content{
+    min-height: 878px;
+    padding: 15px;
+    background-color: aliceblue;
+}
+
+#footer{
+    background-color: black;
+    padding: 8px 0;
+    text-align: center;
+    color: #f5f5f5;
+    text-transform: uppercase;
+}
+.clear-fix:after{
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.clear-fix{
+    display: block;
+    clear: both;
+}
